@@ -46,31 +46,20 @@ A curated list of top Identity & Access Management (IAM), Single Sign-On (SSO), 
 
 ## SaaS/Hosted Platforms
 
+Commercial, cloud-hosted enterprise identity providers, managed CIAM APIs, cloud directory services, and proprietary PAM/MFA suites, sorted descending by company size (valuation / annual revenue).
 
-
-Commercial, cloud-hosted enterprise identity providers, managed CIAM APIs, cloud directory services, and proprietary PAM/MFA suites.
-
-
-
-* **[Okta](https://okta.com)** - Market-leading cloud Identity-as-a-Service (IDaaS) platform providing workforce SSO, universal directory, lifecycle management, and adaptive MFA.
-
-* **[Microsoft Entra ID (formerly Azure AD)](https://microsoft.com)** - Enterprise cloud identity and access management service tightly integrated with Microsoft 365, Azure, and Conditional Access policies.
-
-* **[Ping Identity](https://pingidentity.com)** - Enterprise hybrid and cloud identity security platform supporting complex federation, OAuth/OIDC, SAML, and zero-trust access.
-
-* **[CyberArk](https://cyberark.com)** - Industry-standard proprietary Privileged Access Management (PAM) and identity security platform protecting high-privilege credentials and sessions.
-
-* **[OneLogin](https://onelogin.com)** - Cloud-based unified access management platform offering enterprise SSO, smart-factor authentication, and automated user provisioning.
-
-* **[ForgeRock (Ping Identity)](https://forgerock.com)** - Enterprise digital identity platform for large-scale workforce, consumer, and IoT identity orchestration.
-
-* **[Auth0 (by Okta)](https://auth0.com)** - Developer-centric managed authentication and authorization platform for rapid B2C, B2B, and SaaS CIAM integration.
-
-* **[JumpCloud](https://jumpcloud.com)** - Open cloud directory platform unifying device management (MDM), RADIUS, LDAP, SAML SSO, and multi-OS user authentication.
-
-* **[Cisco Duo Security](https://duo.com)** - Cloud-based zero-trust access security and Multi-Factor Authentication (MFA) provider verifying user identity and device health.
-
-* **[SecureAuth](https://secureauth.com)** - Commercial adaptive authentication and passwordless CIAM/workforce identity platform with behavioral risk scoring.
+| Platform | Description | Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Entra ID](https://microsoft.com)** | Enterprise cloud identity and access management service tightly integrated with Microsoft 365, Azure, and Conditional Access policies. | **$3.1T+ Valuation** ($245B+ Annual Revenue) | **$7.00 / user / month** (Entra ID P1; billed annually) | **Permanent Free Tier** (bundled with Microsoft Azure/365 cloud subscriptions; includes basic SSO & Security Defaults MFA; External ID free up to 50,000 MAU) |
+| **[Cisco Duo Security](https://duo.com)** | Cloud-based zero-trust access security and Multi-Factor Authentication (MFA) provider verifying user identity and device health. | **$235B+ Valuation** ($53.8B+ Annual Revenue) | **$3.00 / user / month** (Duo Essentials; billed annually) | **Permanent Free Tier** (up to 10 users max; includes basic MFA & Duo Mobile app) / 30-day full-feature free trial |
+| **[CyberArk](https://cyberark.com)** | Industry-standard proprietary Privileged Access Management (PAM) and identity security platform protecting high-privilege credentials and sessions. | **$15B+ Valuation** ($1.0B+ Annual Revenue) | **~$3,726 / month** ($44,712/year minimum for Privilege Cloud starter bundle of 25 users, ~$1,788/user/yr) | **No Permanent Free Tier** (14 to 30-day guided enterprise Proof of Concept / trial via sales request, scoped to evaluation environment) |
+| **[Okta](https://okta.com)** | Market-leading cloud Identity-as-a-Service (IDaaS) platform providing workforce SSO, universal directory, lifecycle management, and adaptive MFA. | **$15B+ Valuation** ($2.6B+ Annual Revenue) | **$6.00 / user / month** (Starter Suite; billed annually, $1,500 annual minimum spend floor) | **No Permanent Workforce Free Tier** (Developer integrator plan free up to 10 active users; Workforce platform offers a 30-day free trial limited to 10 users, 1 admin, and 5 workflows) |
+| **[Auth0 (by Okta)](https://auth0.com)** | Developer-centric managed authentication and authorization platform for rapid B2C, B2B, and SaaS CIAM integration. | **$6.5B Valuation** (Acquired by Okta; part of Okta's $2.6B+ ARR) | **$35.00 / month** (B2C Essentials, 500 MAU tier) / **$150.00 / month** (B2B Essentials, 500 MAU tier) | **Permanent Free Tier** (up to 25,000 Monthly Active Users (MAUs), 5 organizations, 1 enterprise SAML/OIDC connection, unlimited social connections) |
+| **[Ping Identity](https://pingidentity.com)** | Enterprise hybrid and cloud identity security platform supporting complex federation, OAuth/OIDC, SAML, and zero-trust access. | **$2.8B Valuation** (Acquired by Thoma Bravo; combined Ping/ForgeRock ARR ~$1B) | **$3.00 / user / month** (PingOne Workforce Essential; typically 5,000 user contract minimum) | **No Permanent Free Tier** (30-day free trial via PingOne, limited to 5 environments and up to 1,000 active test identities) |
+| **[JumpCloud](https://jumpcloud.com)** | Open cloud directory platform unifying device management (MDM), RADIUS, LDAP, SAML SSO, and multi-OS user authentication. | **$2.6B Valuation** (~$200M Annual Recurring Revenue) | **$9.00 / user / month** (Device Management; billed annually) / **$11.00 / user / month** (SSO Plan) | **No Permanent Free Tier for New Accounts** (30-day unrestricted free trial with full platform access; legacy free tier up to 10 users/devices grandfathered pre-Feb 2024) |
+| **[ForgeRock (Ping Identity)](https://forgerock.com)** | Enterprise digital identity platform for large-scale workforce, consumer, and IoT identity orchestration. | **$2.3B Valuation** (Acquired by Thoma Bravo; integrated into Ping Identity) | **~$2,916 / month** (~$35,000/year enterprise base package minimum) | **No Permanent Free Tier** (30-day Proof of Concept / sandbox evaluation trial via sales engagement) |
+| **[OneLogin](https://onelogin.com)** | Cloud-based unified access management platform offering enterprise SSO, smart-factor authentication, and automated user provisioning. | **$500M Valuation** (Acquired by One Identity/Quest; parent valuation $5.4B) | **$2.00 / user / month** (Starter plan; billed annually) | **No Permanent Free Tier** (30-day free trial, no credit card required, includes core SSO, MFA, and cloud directory) |
+| **[SecureAuth](https://secureauth.com)** | Commercial adaptive authentication and passwordless CIAM/workforce identity platform with behavioral risk scoring. | **$225M Valuation** (~$44M - $95M Annual Revenue) | **$1.00 / user / month** (Baseline entry tier index; sales-quoted annual contract) | **No Permanent Free Tier** (14 to 30-day production-ready tenant free trial / POC without credit card) |
 
 
 
