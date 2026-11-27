@@ -1,50 +1,46 @@
-# Awesome-Identity-Access-Management-IAM-SSO
+# Awesome Identity & Access Management (IAM) & SSO 🔐
 
-# Awesome-Identity-Access-Management-IAM-SSO
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Identity and Access Management IAM SSO Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO?style=flat-square" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-Top Identity Access Management IAM SSO (Opensource) 🌟 Star if you like it! 🌟
-
-
-
-A curated list of top Identity & Access Management (IAM), Single Sign-On (SSO), Customer Identity (CIAM), Multi-Factor Authentication (MFA), OAuth2/OIDC providers, and Privileged Access Management (PAM) platforms—featuring commercial SaaS/Hosted platforms alongside their open-source equivalents.
-
-
-
----
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
-
-  - [Full-Featured Enterprise IAM & SSO Identity Providers](#full-featured-enterprise-iam--sso-identity-providers)
-
-  - [Modern Lightweight Self-Hosted SSO & Reverse-Proxy Auth](#modern-lightweight-self-hosted-sso--reverse-proxy-auth)
-
-  - [Developer-First CIAM, OAuth2 & OIDC Servers](#developer-first-ciam-oauth2--oidc-servers)
-
-  - [Multi-Factor Authentication (MFA) & Passkey/WebAuthn Tools](#multi-factor-authentication-mfa--passkeywebauthn-tools)
-
-  - [Privileged Access Management (PAM) & Identity Governance (IGA)](#privileged-access-management-pam--identity-governance-iga)
-
-  - [Directory Services & LDAP / Active Directory Alternatives](#directory-services--ldap--active-directory-alternatives)
-
-- [Contributing](#contributing)
-
-
+> 🌟 **A curated list of top Identity & Access Management (IAM), Single Sign-On (SSO), Customer Identity & Access Management (CIAM), Multi-Factor Authentication (MFA), OAuth2/OIDC servers, Passkeys/FIDO2, and Privileged Access Management (PAM) architectures.** Features enterprise SaaS leaders alongside vetted open-source alternatives.
 
 ---
 
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source Equivalents & Tools](#-open-source-equivalents--tools)
+  - [🛡️ Full-Featured Enterprise IAM & SSO Identity Providers](#️-full-featured-enterprise-iam--sso-identity-providers)
+  - [⚡ Modern Lightweight Self-Hosted SSO & Reverse-Proxy Auth](#-modern-lightweight-self-hosted-sso--reverse-proxy-auth)
+  - [💻 Developer-First CIAM, OAuth2 & OIDC Servers](#-developer-first-ciam-oauth2--oidc-servers)
+  - [🔑 Multi-Factor Authentication (MFA) & Passkey/WebAuthn Tools](#-multi-factor-authentication-mfa--passkeywebauthn-tools)
+  - [🏰 Privileged Access Management (PAM) & Identity Governance (IGA)](#-privileged-access-management-pam--identity-governance-iga)
+  - [📂 Directory Services & LDAP / Active Directory Alternatives](#-directory-services--ldap--active-directory-alternatives)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
+---
 
-## SaaS/Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
+
+The global **Identity and Access Management (IAM)** market is estimated at **$21 billion to $27 billion** (expanding at an annualized CAGR of **11%–15%** towards $45B+). The sector exhibits a **moderately concentrated, top-heavy structure** where hyperscalers and specialized cybersecurity giants (such as Microsoft, Okta, CyberArk, and Cisco) capture the majority of high-contract enterprise workforce and PAM budgets, yet it remains **dynamically fragmented across emerging sub-segments**—particularly developer-first CIAM, passwordless/Passkey infrastructure, zero-trust reverse proxies, and Kubernetes-native authorization engines where nimble open-source solutions frequently win out.
+
+---
+
+## 🏢 SaaS & Hosted Enterprise Platforms
 
 Commercial, cloud-hosted enterprise identity providers, managed CIAM APIs, cloud directory services, and proprietary PAM/MFA suites, sorted descending by company size (valuation / annual revenue).
 
@@ -61,126 +57,84 @@ Commercial, cloud-hosted enterprise identity providers, managed CIAM APIs, cloud
 | **[OneLogin](https://onelogin.com)** | Cloud-based unified access management platform offering enterprise SSO, smart-factor authentication, and automated user provisioning. | **$500M Valuation** (Acquired by One Identity/Quest; parent valuation $5.4B) | **$2.00 / user / month** (Starter plan; billed annually) | **No Permanent Free Tier** (30-day free trial, no credit card required, includes core SSO, MFA, and cloud directory) |
 | **[SecureAuth](https://secureauth.com)** | Commercial adaptive authentication and passwordless CIAM/workforce identity platform with behavioral risk scoring. | **$225M Valuation** (~$44M - $95M Annual Revenue) | **$1.00 / user / month** (Baseline entry tier index; sales-quoted annual contract) | **No Permanent Free Tier** (14 to 30-day production-ready tenant free trial / POC without credit card) |
 
+---
 
+## 🔓 Open-Source Equivalents & Tools
+
+Free and open-source software (FOSS) identity providers, self-hosted SSO portals, OAuth2/OIDC engines, passwordless authentication servers, and PAM/IGA suites. Repositories in each category are ranked and sorted in descending order by GitHub star count.
+
+### 🛡️ Full-Featured Enterprise IAM & SSO Identity Providers
+
+* **[Keycloak](https://github.com/keycloak/keycloak)** [![GitHub Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) - CNCF-incubating open-source Identity and Access Management solution for modern applications and services supporting OIDC, OAuth 2.0, SAML 2.0, and social login.
+* **[authentik](https://github.com/goauthentik/authentik)** [![GitHub Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers) - Open-source, modern Identity Provider emphasizing flexibility and versatility with SAML, OAuth2/OIDC, LDAP, SCIM, and forward-auth proxy support.
+* **[ZITADEL](https://github.com/zitadel/zitadel)** [![GitHub Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers) - Cloud-native, open-source identity infrastructure written in Go featuring event-sourced audit trails, multi-tenancy, B2B delegation, and passkeys.
+* **[Casdoor](https://github.com/casbin/casdoor)** [![GitHub Stars](https://img.shields.io/github/stars/casbin/casdoor?style=social&color=white)](https://github.com/casbin/casdoor/stargazers) - UI-first open-source Identity and Access Management (IAM) / Single-Sign-On (SSO) platform built on Casbin supporting OAuth 2.0, OIDC, SAML, and CAS.
+* **[Apereo CAS](https://github.com/apereo/cas)** [![GitHub Stars](https://img.shields.io/github/stars/apereo/cas?style=social&color=white)](https://github.com/apereo/cas/stargazers) - Enterprise multilingual Single Sign-On solution supporting CAS protocol, SAML, OAuth 2.0, OpenID Connect, and multifactor authentication.
+* **[WSO2 Identity Server](https://github.com/wso2/product-is)** [![GitHub Stars](https://img.shields.io/github/stars/wso2/product-is?style=social&color=white)](https://github.com/wso2/product-is/stargazers) - Extensible, API-driven enterprise open-source IAM and CIAM server supporting federation, adaptive auth, and compliance.
+* **[Gluu Server / Janssen Project](https://github.com/JanssenProject/jans)** [![GitHub Stars](https://img.shields.io/github/stars/JanssenProject/jans?style=social&color=white)](https://github.com/JanssenProject/jans/stargazers) - Linux Foundation open-source cloud-native identity and access management platform built for high-scale OAuth, OIDC, and FIDO2.
+
+### ⚡ Modern Lightweight Self-Hosted SSO & Reverse-Proxy Auth
+
+* **[Authelia](https://github.com/authelia/authelia)** [![GitHub Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) - Open-source authentication and authorization server providing 2FA and SSO for self-hosted applications via reverse proxies (Traefik, Nginx, Caddy).
+* **[OAuth2 Proxy](https://github.com/oauth2-proxy/oauth2-proxy)** [![GitHub Stars](https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white)](https://github.com/oauth2-proxy/oauth2-proxy/stargazers) - Reverse proxy and static file server providing authentication using providers like Google, GitHub, Keycloak, and OIDC.
+* **[Pocket ID](https://github.com/pocket-id/pocket-id)** [![GitHub Stars](https://img.shields.io/github/stars/pocket-id/pocket-id?style=social&color=white)](https://github.com/pocket-id/pocket-id/stargazers) - Simple, lightweight open-source OIDC provider engineered exclusively around passwordless Passkeys/WebAuthn authentication.
+* **[Tinyauth](https://github.com/steveiliop56/tinyauth)** [![GitHub Stars](https://img.shields.io/github/stars/steveiliop56/tinyauth?style=social&color=white)](https://github.com/steveiliop56/tinyauth/stargazers) - Minimalist, ultra-lightweight authentication middleware protecting Docker and reverse-proxy apps with simple login screens or OAuth.
+* **[Pomerium](https://github.com/pomerium/pomerium)** [![GitHub Stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white)](https://github.com/pomerium/pomerium/stargazers) - Open-source identity-aware access proxy enforcing zero-trust, context-aware access policies without requiring a corporate VPN.
+
+### 💻 Developer-First CIAM, OAuth2 & OIDC Servers
+
+* **[Ory Hydra](https://github.com/ory/hydra)** [![GitHub Stars](https://img.shields.io/github/stars/ory/hydra?style=social&color=white)](https://github.com/ory/hydra/stargazers) - Certified, hardened OAuth 2.0 and OpenID Connect (OIDC) server built on Go for scalable enterprise authorization.
+* **[SuperTokens](https://github.com/supertokens/supertokens-core)** [![GitHub Stars](https://img.shields.io/github/stars/supertokens/supertokens-core?style=social&color=white)](https://github.com/supertokens/supertokens-core/stargazers) - Open-source user authentication solution providing session management, social login, passwordless, and multi-tenant B2B flows.
+* **[Logto](https://github.com/logto-io/logto)** [![GitHub Stars](https://img.shields.io/github/stars/logto-io/logto?style=social&color=white)](https://github.com/logto-io/logto/stargazers) - Modern open-source alternative to Auth0 offering passwordless sign-in, RBAC, multi-tenancy organizations, and SDKs for web and mobile apps.
+* **[Ory Kratos](https://github.com/ory/kratos)** [![GitHub Stars](https://img.shields.io/github/stars/ory/kratos?style=social&color=white)](https://github.com/ory/kratos/stargazers) - Certified, API-first, cloud-native headless user management and authentication system.
+* **[Dex](https://github.com/dexidp/dex)** [![GitHub Stars](https://img.shields.io/github/stars/dexidp/dex?style=social&color=white)](https://github.com/dexidp/dex/stargazers) - Federated OpenID Connect provider acting as a portal to external identity sources (LDAP, SAML, GitHub, GitLab) for Kubernetes and cloud apps.
+* **[Hanko](https://github.com/teamhanko/hanko)** [![GitHub Stars](https://img.shields.io/github/stars/teamhanko/hanko?style=social&color=white)](https://github.com/teamhanko/hanko/stargazers) - Open-source authentication and user management solution built around FIDO2/WebAuthn passkeys and modern frontend web components.
+* **[Kanidm](https://github.com/kanidm/kanidm)** [![GitHub Stars](https://img.shields.io/github/stars/kanidm/kanidm?style=social&color=white)](https://github.com/kanidm/kanidm/stargazers) - Modern, simple, and ultra-secure identity management platform written in Rust with native Passkeys, OAuth2, LDAP, and POSIX/SSH integration.
+* **[Ory Keto](https://github.com/ory/keto)** [![GitHub Stars](https://img.shields.io/github/stars/ory/keto?style=social&color=white)](https://github.com/ory/keto/stargazers) - Open-source implementation of Google Zanzibar cryptographic access control and permission management server.
+* **[Cerbos](https://github.com/cerbos/cerbos)** [![GitHub Stars](https://img.shields.io/github/stars/cerbos/cerbos?style=social&color=white)](https://github.com/cerbos/cerbos/stargazers) - Cloud-native, open-source authorization layer for context-aware role-based (RBAC) and attribute-based (ABAC) access control.
+
+### 🔑 Multi-Factor Authentication (MFA) & Passkey/WebAuthn Tools
+
+* **[2FAuth](https://github.com/Bubka/2FAuth)** [![GitHub Stars](https://img.shields.io/github/stars/Bubka/2FAuth?style=social&color=white)](https://github.com/Bubka/2FAuth/stargazers) - Self-hosted open-source web app for managing Two-Factor Authentication (TOTP/HOTP) accounts and generating security codes across devices.
+* **[privacyIDEA](https://github.com/privacyidea/privacyidea)** [![GitHub Stars](https://img.shields.io/github/stars/privacyidea/privacyidea?style=social&color=white)](https://github.com/privacyidea/privacyidea/stargazers) - Modular, open-source multi-factor authentication server supporting OTP tokens, FIDO2/WebAuthn, push notifications, and RADIUS/PAM.
+* **[LinOTP](https://github.com/LinOTP/LinOTP)** [![GitHub Stars](https://img.shields.io/github/stars/LinOTP/LinOTP?style=social&color=white)](https://github.com/LinOTP/LinOTP/stargazers) - Flexible open-source enterprise solution for two-factor authentication with one-time passwords and hardware tokens.
+
+### 🏰 Privileged Access Management (PAM) & Identity Governance (IGA)
+
+* **[JumpServer](https://github.com/jumpserver/jumpserver)** [![GitHub Stars](https://img.shields.io/github/stars/jumpserver/jumpserver?style=social&color=white)](https://github.com/jumpserver/jumpserver/stargazers) - Popular open-source Privileged Access Management (PAM) bastion host supporting SSH, RDP, Kubernetes, and database session auditing.
+* **[Teleport](https://github.com/gravitational/teleport)** [![GitHub Stars](https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white)](https://github.com/gravitational/teleport/stargazers) - Open-source identity-native infrastructure access plane replacing SSH keys, VPNs, and static credentials with short-lived certificates.
+* **[MidPoint (Evolveum)](https://github.com/Evolveum/midpoint)** [![GitHub Stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers) - Comprehensive open-source Identity Governance and Administration (IGA) platform for lifecycle workflows, RBAC, and compliance.
+* **[Apache Syncope](https://github.com/apache/syncope)** [![GitHub Stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers) - Open-source enterprise system for managing digital identities, provisioning, reconciliation, and Identity Governance (IGA).
+
+### 📂 Directory Services & LDAP / Active Directory Alternatives
+
+* **[LLDAP (Light LDAP)](https://github.com/lldap/lldap)** [![GitHub Stars](https://img.shields.io/github/stars/lldap/lldap?style=social&color=white)](https://github.com/lldap/lldap/stargazers) - Opinionated, lightweight open-source LDAP implementation designed specifically for easy user management and self-hosted authentication.
+* **[FreeIPA](https://github.com/freeipa/freeipa)** [![GitHub Stars](https://img.shields.io/github/stars/freeipa/freeipa?style=social&color=white)](https://github.com/freeipa/freeipa/stargazers) - Integrated open-source security information management solution combining Linux, 389 Directory Server, Kerberos, DNS, and CA.
+* **[Samba Active Directory](https://github.com/samba-team/samba)** [![GitHub Stars](https://img.shields.io/github/stars/samba-team/samba?style=social&color=white)](https://github.com/samba-team/samba/stargazers) - Open-source software suite providing full Active Directory Domain Controller compatibility, Kerberos, LDAP, and SMB/CIFS services.
 
 ---
 
+## 📈 Star History
 
-
-## Open-Source Equivalents & Tools
-
-
-
-Free and open-source software (FOSS) identity providers, self-hosted SSO portals, OAuth2/OIDC engines, passwordless authentication servers, and PAM/IGA suites.
-
-
-
-### Full-Featured Enterprise IAM & SSO Identity Providers
-
-
-
-* **[authentik](https://github.com)** - Open-source, modern Identity Provider emphasizing flexibility and versatility with SAML, OAuth2/OIDC, LDAP, SCIM, and forward-auth proxy support.
-
-* **[Keycloak](https://github.com)** - CNCF-incubating open-source Identity and Access Management solution for modern applications and services supporting OIDC, OAuth 2.0, SAML 2.0, and social login.
-
-* **[ZITADEL](https://github.com)** - Cloud-native, open-source identity infrastructure written in Go featuring event-sourced audit trails, multi-tenancy, B2B delegation, and passkeys.
-
-* **[Casdoor](https://github.com)** - UI-first open-source Identity and Access Management (IAM) / Single-Sign-On (SSO) platform built on Casbin supporting OAuth 2.0, OIDC, SAML, and CAS.
-
-* **[WSO2 Identity Server](https://github.com)** - Extensible, API-driven open-source IAM and CIAM server supporting enterprise federation, adaptive auth, and privacy compliance.
-
-* **[Gluu Server / Janssen Project](https://github.com)** - Linux Foundation open-source cloud-native identity and access management platform built for high-scale OAuth, OIDC, and FIDO2 deployments.
-
-
-
-### Modern Lightweight Self-Hosted SSO & Reverse-Proxy Auth
-
-
-
-* **[Authelia](https://github.com)** - Open-source authentication and authorization server providing 2FA and SSO for self-hosted applications via reverse proxies (Traefik, Nginx, Caddy).
-
-* **[Pocket ID](https://github.com)** - Simple, lightweight open-source OIDC provider engineered exclusively around passwordless Passkeys/WebAuthn authentication.
-
-* **[Tinyauth](https://github.com)** - Minimalist, ultra-lightweight authentication middleware protecting Docker and reverse-proxy apps with simple login screens or OAuth.
-
-* **[OAuth2 Proxy](https://github.com)** - Reverse proxy and static file server providing authentication using providers like Google, GitHub, Keycloak, and OIDC.
-
-* **[Pomerium](https://github.com)** - Open-source identity-aware access proxy enforcing zero-trust, context-aware access policies without requiring a corporate VPN.
-
-
-
-### Developer-First CIAM, OAuth2 & OIDC Servers
-
-
-
-* **[Ory Hydra & Ory Kratos](https://github.com)** - Certified, cloud-native open-source OAuth 2.0 & OpenID Connect provider (Hydra) paired with a headless identity/user management system (Kratos).
-
-* **[Logto](https://github.com)** - Modern open-source alternative to Auth0 offering passwordless sign-in, RBAC, multi-tenancy organizations, and SDKs for web and mobile apps.
-
-* **[SuperTokens](https://github.com)** - Open-source user authentication solution providing session management, social login, passwordless, and multi-tenant B2B flows.
-
-* **[Hanko](https://github.com)** - Open-source authentication and user management solution built around FIDO2/WebAuthn passkeys and modern frontend web components.
-
-* **[Dex](https://github.com)** - Federated OpenID Connect provider acting as a portal to external identity sources (LDAP, SAML, GitHub, GitLab) for Kubernetes and cloud apps.
-
-* **[Kanidm](https://github.com)** - Modern, simple, and ultra-secure identity management platform written in Rust with native Passkeys, OAuth2, LDAP, and POSIX/SSH integration.
-
-
-
-### Multi-Factor Authentication (MFA) & Passkey/WebAuthn Tools
-
-
-
-* **[privacyIDEA](https://github.com)** - Modular, open-source multi-factor authentication server supporting OTP tokens, FIDO2/WebAuthn, push notifications, and RADIUS/PAM.
-
-* **[LinOTP](https://github.com)** - Flexible open-source enterprise solution for two-factor authentication with one-time passwords and hardware tokens.
-
-* **[2FAuth](https://github.com)** - Self-hosted open-source web app for managing Two-Factor Authentication (TOTP/HOTP) accounts and generating security codes across devices.
-
-
-
-### Privileged Access Management (PAM) & Identity Governance (IGA)
-
-
-
-* **[Teleport (Community Edition)](https://github.com)** - Open-source identity-native infrastructure access plane replacing SSH keys, VPNs, and static credentials with short-lived certificates.
-
-* **[JumpServer](https://github.com)** - Popular open-source Privileged Access Management (PAM) bastion host supporting SSH, RDP, Kubernetes, and database session auditing.
-
-* **[Apache Syncope](https://github.com)** - Open-source enterprise system for managing digital identities, provisioning, reconciliation, and Identity Governance (IGA).
-
-* **[MidPoint (Evolveum)](https://github.com)** - Comprehensive open-source Identity Governance and Administration (IGA) platform for lifecycle workflows, RBAC, and compliance.
-
-
-
-### Directory Services & LDAP / Active Directory Alternatives
-
-
-
-* **[FreeIPA](https://github.com)** - Integrated open-source security information management solution combining Linux (Fedora/RHEL), 389 Directory Server, MIT Kerberos, NTP, DNS, and Dogtag CA.
-
-* **[Samba Active Directory](https://github.com)** - Open-source software suite providing full Active Directory Domain Controller compatibility, Kerberos, LDAP, and SMB/CIFS services.
-
-* **[LLDAP (Light LDAP)](https://github.com)** - Opinionated, lightweight open-source LDAP implementation designed specifically for easy user management and self-hosted authentication.
-
-* **[OpenLDAP](https://openldap.org)** - Mature, high-performance open-source implementation of the Lightweight Directory Access Protocol.
-
-
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Identity-Access-Management-IAM-SSO&type=date&legend=top-left)
 
 ---
 
+## 🤝 Contributing
 
+Contributions are always welcome! Feel free to open a Pull Request to add more open-source IAM platforms, OIDC/OAuth2 providers, PAM bastion hosts, or directory services.
 
-## Contributing
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/new-iam-platform`.
+3. 📝 Add your project under the appropriate category with its repository link, star badge, and a concise description.
+4. 🚀 Submit a Pull Request.
 
+---
 
+## 💖 Support & Sponsorship
 
-Contributions are welcome! Feel free to open a Pull Request to add more open-source IAM platforms, OIDC/OAuth2 providers, PAM bastion hosts, or directory services.
+If you find this curated collection helpful for your engineering, DevOps, or enterprise security architecture, please consider supporting the project:
 
-
-
-1. Fork the repository.
-
-2. Add your project under the appropriate category with a concise description.
-
-3. Submit a Pull Request.
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with colleagues and security teams.
+- ☕ **Buy a coffee & sponsor**: Support continued curation and open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
